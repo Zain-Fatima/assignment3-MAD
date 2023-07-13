@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Name"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Age"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/textViewName"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewClassName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Class"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/textViewAge"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewSabaqLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Sabaq:"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/textViewClassName"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewSabaq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text=""
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/textViewSabaqLabel"
+        android:layout_alignBaseline="@id/textViewSabaqLabel" />
+    <TextView
+        android:id="@+id/textViewSabaqiLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Sabaqi:"
+        android:layout_marginBottom="8dp"
+
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewSabaqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text=""
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/textViewSabaqLabel"
+        android:layout_alignBaseline="@id/textViewSabaqLabel" />
+
+    <TextView
+        android:id="@+id/textViewManzilLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Manzil:"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/textViewSabaq"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewManzil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text=""
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/textViewManzilLabel"
+        android:layout_alignBaseline="@id/textViewManzilLabel" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/textViewManzil"
+        android:layout_alignParentStart="true" />
+
+</LinearLayout>
